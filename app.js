@@ -36,7 +36,7 @@ subBtn.addEventListener('click', e => {
            <div class="card-body mt-3" id="output-body">
              <h5 class="card-title">${data.sname}</h5>
              <h5 class="card-text">${data.fname}</h5>
-             <h5 class="card-text">Your Score is: ${data.percentage}</h5>
+             <h5 class="card-text">Your Score is: ${data.percentage} %</h5>
              <h5 class="card-text">${data.result}</h5>
              <a href="#" class="btn btn-danger newbtn" id="redbtn">Make Another Calculation </a>
              </div>
