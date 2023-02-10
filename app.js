@@ -48,10 +48,10 @@ subBtn.addEventListener('click', e => {
            redBtn.addEventListener('click', e => {
             reset.style.display = 'none';
            })
-          
+           partner = reset ()
+           user = reset ()
         })
         
-       
 } )
 }
 
