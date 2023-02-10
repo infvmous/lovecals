@@ -44,16 +44,14 @@ visibility: hidden;
     justify-content: center;
     position: relative;
     overflow-y: hidden !important;
-}
-
-#reset{
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-
 }
+
+
 
 
 .fa-heart-circle-xmark{
