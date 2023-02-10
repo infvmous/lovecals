@@ -64,7 +64,9 @@ label{
         padding: 5px;
         border-radius: 5px;
     }
-
+input{
+    width: 100% !important;
+}
     
 }
 
