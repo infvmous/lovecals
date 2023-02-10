@@ -100,7 +100,3 @@ button{
 #reset{
     transition: .30s ease-in-out;
 }
-
-.card{
-    padding: 15px;
-}
