@@ -98,8 +98,7 @@ button{
 
 #reset{
     transition: .30s ease-in-out;
-    height: 50vh;
-    margin-top: 40% !important;
+    height: 100vh;
     display: flex;
     align-items: center;
      padding: 50px;
