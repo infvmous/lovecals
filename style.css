@@ -5,7 +5,7 @@
 }
 body{
     overflow-x: hidden !important;
-    background: #FEDEFF;
+    background: rgb(126, 203, 126);
 }
 
 .main{
@@ -16,7 +16,7 @@ body{
 }
 
 .navbar{
-    background: #FAD3E7 !important;
+    background: rgb(53, 175, 53) !important;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .navbar-brand{
@@ -43,7 +43,14 @@ visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+   padding-top: 150px;
 }
+
+
+#output-body {
+   background: red;
+}
+
 
 .fa-heart-circle-xmark{
     color: rgba(218, 93, 11, 0.918);
