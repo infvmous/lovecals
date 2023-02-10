@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     background: #FEDEFF;
 }
 
 .main{
     position: relative;
-    background: url(https://images.pexels.com/photos/326612/pexels-photo-326612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
     background-position: center;
     min-height: 500px;
     max-height: 500px;
@@ -31,7 +31,7 @@ body{
 }
 
 #spinner{
- color: rgb(221, 210, 210);
+ color: rgb(253, 249, 249);
 visibility: hidden;
 }
 
@@ -40,7 +40,6 @@ visibility: hidden;
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: .90;
     margin-bottom: 40px;
 }
 
@@ -69,6 +68,8 @@ label{
         padding: 5px;
         border-radius: 5px;
     }
+
+    
 }
 
 p, .nav-link{
@@ -98,4 +99,8 @@ button{
 
 #reset{
     transition: .30s ease-in-out;
+}
+
+.card{
+    padding: 15px;
 }
