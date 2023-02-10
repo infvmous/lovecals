@@ -39,9 +39,6 @@ subBtn.addEventListener('click', e => {
              <h5 class="card-text">Your Score is: ${data.percentage}</h5>
              <h5 class="card-text">${data.result}</h5>
              <a href="#" class="btn btn-danger newbtn" id="redbtn">Make Another Calculation </a>
-             <div class="img-box">
-             <img class="img" src="https://images.pexels.com/photos/269583/pexels-photo-269583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="love calculator"/>
-           </div>
              </div>
          </div>
            `
