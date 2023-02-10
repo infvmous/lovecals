@@ -11,8 +11,6 @@ body{
 .main{
     position: relative;
     background-position: center;
-    min-height: 500px;
-    max-height: 500px;
     text-align: center;
    overflow-x: hidden;
 }
