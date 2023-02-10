@@ -98,10 +98,12 @@ button{
 
 #reset{
     transition: .30s ease-in-out;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     align-items: center;
      padding: 50px;
+     margin-top: 20%;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card{
