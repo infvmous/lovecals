@@ -14,7 +14,7 @@ body{
     min-height: 500px;
     max-height: 500px;
     text-align: center;
-   
+   overflow-x: hidden;
 }
 
 .navbar{
