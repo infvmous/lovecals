@@ -29,7 +29,7 @@ subBtn.addEventListener('click', e => {
         .then(data => {
             time ()
            let html = `
-           <div class="card text-center " id="reset">
+           <div class="card text-center w-100" id="reset">
            <div class="card-header">
              Are you compactible?
            </div>
