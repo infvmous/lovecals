@@ -33,12 +33,17 @@ visibility: hidden;
 
 #result{
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     right: 0;
-    height: 100vh;
 }
 
+#reset{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .fa-heart-circle-xmark{
     color: rgba(218, 93, 11, 0.918);
