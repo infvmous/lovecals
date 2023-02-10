@@ -39,7 +39,7 @@ visibility: hidden;
     left: 0;
     right: 0;
     top: 0;
-    margin-top: 20%;
+   
    
 }
 
@@ -98,7 +98,8 @@ button{
 
 #reset{
     transition: .30s ease-in-out;
-    height: 100vh;
+    height: 50vh;
+    margin-top: 40% !important;
 }
 
 .card{
