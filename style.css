@@ -96,12 +96,23 @@ button{
 }
 
 #reset{
-    transition: .30s ease-in-out;
     height: 100vh;
     display: flex;
     align-items: center;
      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+@media (min-width: 576px) { 
+    #reset{
+        padding: 0 !important;
+        height: 100vh !important;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+         overflow-y: hidden;
+    }
+ }
 
 .img-box img {
     width: 100%;
