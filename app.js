@@ -33,7 +33,7 @@ subBtn.addEventListener('click', e => {
            <div class="card-header">
              Are you compactible?
            </div>
-           <div class="card-body">
+           <div class="card-body mt-3" id="output-body">
              <h5 class="card-title">${data.sname}</h5>
              <h5 class="card-text">${data.fname}</h5>
              <h5 class="card-text">Your Score is: ${data.percentage}</h5>
