@@ -40,7 +40,7 @@ subBtn.addEventListener('click', e => {
              <h5 class="card-text">${data.result}</h5>
              <a href="#" class="btn btn-danger newbtn" id="redbtn">Make Another Calculation </a>
              <div >
-             <img class="img img-fluid" src="https://images.pexels.com/photos/1415131/pexels-photo-1415131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+             <img class="img img-fluid" src="https://images.pexels.com/photos/879200/pexels-photo-879200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
            </div>
              </div>
          </div>
