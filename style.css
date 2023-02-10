@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background: #FEDEFF;
+}
+
+.main{
+    position: relative;
+    background: url(https://images.pexels.com/photos/326612/pexels-photo-326612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    min-height: 500px;
+    max-height: 500px;
+    text-align: center;
+    width: 100%;
+   
+}
+
+.navbar{
+    background: #FAD3E7 !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.navbar-brand{
+    font-family: 'Anton', sans-serif;
+    padding: 10px;
+    border: 1px solid #a42f6b35;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+#spinner{
+ color: rgb(221, 210, 210);
+visibility: hidden;
+}
+
+#result{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .90;
+    margin-bottom: 40px;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+padding: 5px;
+}
+
+.fa-heart-circle-xmark{
+    color: rgba(218, 93, 11, 0.918);
+    font-size: larger;
+}
+
+label{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    background-color: #fad3e72d;
+    padding: 5px;
+    border-radius: 5px;
+}
+@media (max-width: 600px){
+    label{
+        font-family: 'Anton', sans-serif;
+        font-size: 25px;
+        background-color: #fad3e72d;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+
+p, .nav-link{
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold !important;
+}
+
+@media (min-width: 992px) {
+    .nav-link{
+        border: 1px solid whitesmoke;
+        margin: 5px;
+        border-radius: 5px;
+        background-color: #FEDEFF;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+}
+
+.nav-link:hover{
+    background-color: #FAD3E7;
+    transform: translateY(-2px);
+    transition: .30s ease-in-out;
+}
+
+button{
+    padding: 15px !important;
+}
+
+#reset{
+    transition: .30s ease-in-out;
+}
