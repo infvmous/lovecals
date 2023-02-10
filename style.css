@@ -5,7 +5,8 @@
 }
 body{
     overflow-x: hidden !important;
-    background: #FEDEFF;
+    background: #FEDEFF !important;
+    scroll-behavior: smooth !important;
 }
 
 .main{
