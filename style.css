@@ -15,6 +15,10 @@ body{
    overflow-x: hidden;
 }
 
+.findout {
+    display: flex;
+}
+
 .navbar{
     background: rgb(53, 175, 53) !important;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -25,6 +29,7 @@ body{
     border: 1px solid #a42f6b35;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
+
 
 #spinner{
  color: rgb(253, 249, 249);
@@ -56,7 +61,6 @@ visibility: hidden;
 label{
     font-family: 'Anton', sans-serif;
     font-size: 40px;
-    background-color: #fad3e72d;
     padding: 5px;
     border-radius: 5px;
 }
@@ -64,7 +68,6 @@ label{
     label{
         font-family: 'Anton', sans-serif;
         font-size: 25px;
-        background-color: #fad3e72d;
         padding: 5px;
         border-radius: 5px;
     }
